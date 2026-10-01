@@ -170,7 +170,7 @@ class _NutritionLoggerScreenState extends State<NutritionLoggerScreen>
                                 ),
                                 Container(
                                   padding: const EdgeInsets.all(12),
-                                  decoration: BoxDecoration(
+                                  decoration: const BoxDecoration(
                                     color: AppColors.accentLight,
                                     shape: BoxShape.circle,
                                   ),
