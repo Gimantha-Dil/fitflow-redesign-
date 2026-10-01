@@ -14,7 +14,7 @@ class MainShell extends StatelessWidget {
   Widget build(BuildContext context) {
     final provider = Provider.of<FitnessProvider>(context);
 
-    final List<Widget> screens = const [
+    const List<Widget> screens = [
       HomeDashboardScreen(),
       WorkoutPlannerScreen(),
       ProgressScreen(),
